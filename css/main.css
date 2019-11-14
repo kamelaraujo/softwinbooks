@@ -1,0 +1,41 @@
+#menuPrincipal {
+	box-shadow: 2px 2px 5px #000;
+	opacity: .9;
+}
+
+#menuPrincipal .nav-item .nav-link {
+	color: #fff;
+}
+
+.main-header {
+	background: url(../img/background.jpg);
+	background-size: cover;
+	min-height: 500px; 
+	position: relative;
+}
+
+.background-overlay {
+	background: rgba(48, 51, 107,0.7);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.form-control, .btn {
+	border-radius: 0;
+}
+
+.accordion {
+	width: 100%;
+}
+
+.card-body li {
+	list-style: none;
+}
+
+@media (max-width: 600px) {
+  .background-overlay {
+    position: absolute;
+  }
+}
